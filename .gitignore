@@ -1,0 +1,33 @@
+# Ignore environment variables
+.env
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data directories
+input_images/
+mixed_wiki/
+qdrant_mm_db/
+qdrant_d_0/
+qdrant_mm_db_new/
+data_wiki/
+
+# Ignore downloaded files
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.htm
+
+# Ignore virtual environment
+mmenv/
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
